@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { supabase } from '@/lib/supabase';
+import { supabase } from '@/app/lib/supabase';
 import { Terminal, ChevronRight, ShieldAlert, Copy, CheckCircle2 } from 'lucide-react';
 
 export default function LandingPage() {
